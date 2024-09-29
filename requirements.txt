@@ -18,4 +18,4 @@ biopsykit
 neurokit2
 pytz
 pymc
-arxiv
+arviz

@@ -1,13 +1,13 @@
 import argparse
 import json
 import os
+import pickle
 import random
 import typing as t
 
 import arviz as az
 import matplotlib.pyplot as plt
 import pandas as pd
-import pickle
 import pymc as pm
 import seaborn as sns
 import xarray as xr
@@ -17,7 +17,12 @@ from matplotlib.patches import Patch
 from pymc.model.core import Model
 from scipy import optimize
 from scipy.integrate import trapz
-from scipy.stats import beta, gaussian_kde, halfnorm, invgamma, iqr, norm
+from scipy.stats import beta
+from scipy.stats import gaussian_kde
+from scipy.stats import halfnorm
+from scipy.stats import invgamma
+from scipy.stats import iqr
+from scipy.stats import norm
 
 from timebase.data.static import *
 from timebase.plot import plot
