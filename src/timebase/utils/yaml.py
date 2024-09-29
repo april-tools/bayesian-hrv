@@ -2,7 +2,6 @@ import os
 import typing as t
 
 import numpy as np
-import torch
 from ruamel.yaml import YAML
 
 yaml = YAML(typ="safe")
@@ -10,15 +9,11 @@ yaml = YAML(typ="safe")
 
 def array2py(data: t.Dict):
     """
-    Recursively replace np.ndarray and torch.Tensor variables in data with
+    Recursively replace np.ndarray variables in data with
     Python integer, float or list.
     """
     for k, v in data.items():
-        if isinstance(v, torch.Tensor):
-            data[k] = v.cpu().numpy().tolist()
-        elif isinstance(v, torch.device):
-            data[k] = v.type
-        elif isinstance(v, np.ndarray):
+        if isinstance(v, np.ndarray):
             data[k] = v.tolist()
         elif isinstance(v, np.float32) or isinstance(v, np.float64):
             data[k] = float(v)
