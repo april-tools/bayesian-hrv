@@ -12,19 +12,18 @@ import flirt
 import heartpy as hp
 import neurokit2 as nk
 import pandas as pd
-from hrvanalysis import (
-    get_frequency_domain_features,
-    get_time_domain_features,
-    interpolate_nan_values,
-    remove_ectopic_beats,
-    remove_outliers,
-)
+from hrvanalysis import get_frequency_domain_features
+from hrvanalysis import get_time_domain_features
+from hrvanalysis import interpolate_nan_values
+from hrvanalysis import remove_ectopic_beats
+from hrvanalysis import remove_outliers
 from tqdm.contrib import concurrent
 
 from timebase.data import filter_data
 from timebase.data.static import *
 from timebase.utils import h5
-from timebase.utils.utils import set_random_seed, update_dict
+from timebase.utils.utils import set_random_seed
+from timebase.utils.utils import update_dict
 
 
 def extract_features(

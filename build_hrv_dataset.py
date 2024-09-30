@@ -8,7 +8,8 @@ import pandas as pd
 import pytz
 
 from timebase.data.static import *
-from timebase.utils import h5, utils
+from timebase.utils import h5
+from timebase.utils import utils
 
 
 def _create_dict(keys, values):

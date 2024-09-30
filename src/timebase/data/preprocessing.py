@@ -9,7 +9,8 @@ import re
 import shutil
 import typing as t
 import warnings
-from datetime import datetime, timedelta
+from datetime import datetime
+from datetime import timedelta
 from functools import partial
 
 import numpy as np
@@ -18,7 +19,8 @@ from tqdm import tqdm
 from tqdm.contrib import concurrent
 
 from timebase.data import utils
-from timebase.data.filter_data import scripps_clinic_algorithm, van_hees_algorithm
+from timebase.data.filter_data import scripps_clinic_algorithm
+from timebase.data.filter_data import van_hees_algorithm
 from timebase.data.static import *
 from timebase.utils.utils import get_sequences_boundaries_index
 
