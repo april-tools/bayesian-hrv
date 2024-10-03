@@ -1,8 +1,8 @@
 # A Bayesian analysis of heart rate variability changes over acute episodes of bipolar disorder
 
-This codebase was developed by [Filippo Corponi](https://github.com/FilippoCMC) and [Bryan M. Li](https://github.com/bryanlimy). It is part of the npj Mental Health paper "[A Bayesian analysis of heart rate variability changes over acute episodes of bipolar disorder](https://osf.io/preprints/psyarxiv)". If you find this code or any of the ideas in the paper useful, please consider starring this repository and citing:
+This codebase was developed by [Filippo Corponi](https://github.com/FilippoCMC) and [Bryan M. Li](https://github.com/bryanlimy). It is part of the npj Mental Health paper "[A Bayesian analysis of heart rate variability changes over acute episodes of bipolar disorder](https://www.nature.com/articles/s44184-024-00090-x)". If you find this code or any of the ideas in the paper useful, please consider starring this repository and citing:
 
-```buildoutcfg
+```bibtex
 @article{corponi2024bayesian,
   title = {A Bayesian analysis of heart rate variability changes over acute episodes of bipolar disorder},
   author = {Corponi, F. and Li, B.M. and Anmella, G. \etal},
