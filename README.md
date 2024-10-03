@@ -3,18 +3,15 @@
 This codebase was developed by [Filippo Corponi](https://github.com/FilippoCMC) and [Bryan M. Li](https://github.com/bryanlimy). It is part of the npj Mental Health paper "[A Bayesian analysis of heart rate variability changes over acute episodes of bipolar disorder](https://osf.io/preprints/psyarxiv)". If you find this code or any of the ideas in the paper useful, please consider starring this repository and citing:
 
 ```buildoutcfg
-@article{
-author = {},
-title = {},
-year = {},
-isbn = {},
-publisher = {},
-address = {},
-url = {},
-doi = {},
-pages = {},
-numpages = {11},
-keywords = {},
+@article{corponi2024bayesian,
+  title = {A Bayesian analysis of heart rate variability changes over acute episodes of bipolar disorder},
+  author = {Corponi, F. and Li, B.M. and Anmella, G. \etal},
+  journal = {npj Mental Health Research},
+  volume = {3},
+  page = {44},
+  year = {2024},
+  doi = {10.1038/s44184-024-00090-x},
+  url = {https://doi.org/10.1038/s44184-024-00090-x}
 }
 ```
 
